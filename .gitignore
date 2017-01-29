@@ -1,0 +1,5 @@
+*.class
+java_ee_web_app/.project
+java_ee_web_app/.settings/*
+java_ee_web_app/.classpath
+target
