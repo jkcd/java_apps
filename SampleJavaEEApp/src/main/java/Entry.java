@@ -1,4 +1,4 @@
-package main.java;
+//package main.java;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -20,12 +20,12 @@ public class Entry extends HttpServlet{
 	  out.println("<html>");
 	  out.println("<head>");
 	  out.println("<title>");
-	  out.println("My Java EE Web Application");
+	  out.println("My Java EE Web Application!");
 	  out.println("</title>");
 	  out.println("</head>");
 	  out.println("<body>");
 	  out.println("<p>");
-	  out.println("This is a sample Servlet Application");
+	  out.println("This is a sample Servlet Application!!");
 	  out.println("</p>");
 	  out.println("</body>");
 	  out.println("</html>");
