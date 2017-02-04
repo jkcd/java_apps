@@ -19,7 +19,14 @@ public class Login extends HttpServlet{
 		String password = req.getParameter("passwd");
 		System.out.println("user:" + userid +  "  password: " + password);
 		
-		req.setAttribute("loginResult", "success");
+		if ( !password.equals("test")){
+			req.setAttribute("loginResult", "failure");
+		}
+		else{
+			req.setAttribute("loginResult", "success");
+		}
+		
+		
 		req.getRequestDispatcher("/WEB-INF/views/loginresponse.jsp").forward(req, resp);
 		
 		
