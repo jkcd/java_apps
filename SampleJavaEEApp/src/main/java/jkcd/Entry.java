@@ -20,7 +20,7 @@ public class Entry extends HttpServlet{
 	  req.getRequestDispatcher("/WEB-INF/views/entry.jsp").forward(req, resp);
 	  
 	  /*
-	  * bad way of writing response
+	  * bad way of writing response, switch to jsp rather
 	  PrintWriter out = resp.getWriter();
 	  out.println("<html>");
 	  out.println("<head>");
