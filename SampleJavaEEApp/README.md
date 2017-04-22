@@ -22,9 +22,9 @@
 - Java SDK-> http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 - Maven ->  https://maven.apache.org/
 - Updating environment variables
-  update your PATH variable like below
-  export PATH=$PATH:/user/jramamoorthy/maven_dir/apache-maven/apache-maen-3.0/bin
-  export PATH=$PATH:/user/jramamoorthy/java_dir/jdk-7u45-macosx-x64/Contents/Home/bin
-  make sure JAVA_HOME is set to jdk as below example
-  export JAVA_HOME=/user/jramamoorthy/java_dir/jdk-7u45-macosx-x64/
+  - update your PATH variable like below
+  - export PATH=$PATH:/user/jramamoorthy/maven_dir/apache-maven/apache-maen-3.0/bin
+  - export PATH=$PATH:/user/jramamoorthy/java_dir/jdk-7u45-macosx-x64/Contents/Home/bin
+  - make sure JAVA_HOME is set to jdk as below example
+  - export JAVA_HOME=/user/jramamoorthy/java_dir/jdk-7u45-macosx-x64/
  
