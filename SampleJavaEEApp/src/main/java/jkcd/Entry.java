@@ -18,6 +18,8 @@ public class Entry extends HttpServlet{
 	  
 	  req.setAttribute("myarg", req.getParameter("myarg"));
 	  req.getRequestDispatcher("/WEB-INF/views/entry.jsp").forward(req, resp);
+	  System.out.println("my query param:" + req.getParameter("myarg"));
+	  
 	  
 	  /*
 	  * bad way of writing response, switch to jsp rather
